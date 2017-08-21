@@ -8,6 +8,6 @@ RUN yum install -y inotify-tools wget tar gzip make gcc perl pcre-devel zlib-dev
 
 EXPOSE 80 443
 
-ENTRYPOINT ["/bin/bash]
+ENTRYPOINT ["/bin/bash"]
 
 
